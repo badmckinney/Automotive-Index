@@ -85,6 +85,7 @@ SELECT
 FROM car_models
 WHERE year = 2010;
 
+\timing
 \c badmckinney;
 DROP DATABASE indexed_cars;
 DROP USER indexed_cars_user;
